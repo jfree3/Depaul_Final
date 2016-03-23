@@ -1,0 +1,123 @@
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000040;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+  opacity: .8;
+}
+
+#menu li {
+  float: none;
+  display: inline-block;
+}
+
+#menu li a:hover {
+  text-decoration: underline; color: red;
+}
+
+
+#menu li a {
+  display: block;
+  color: white;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 1.25em;
+  font-family: sans-serif;
+}
+
+
+#chicago {
+  color: red;
+
+}
+
+#sidebar {
+  list-style-type: none;
+  margin: 0;
+  padding: 15px;
+  overflow: hidden;
+  background-color: none;
+  text-align: right;
+  width: 10%;
+  position: absolute;
+  right: 0px;
+  top: 400px;
+  font-size: 1.10em;
+  font-family: serif;
+
+}
+
+#sidebar li {
+  float: center;
+}
+
+#sidebar li a {
+  display: block;
+  color: white;
+  text-align: right;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+#img-marquee {
+  position: absolute;
+  width: 100%;
+
+}
+
+#marquee {
+  position: relative;
+  left: 100px;
+  top: 700px;
+  width: 25%;
+  color: white;
+}
+
+#news {
+  list-style: none;
+  font-size: 0px;
+  position: absolute 1200px 700px;
+  float: left;
+
+}
+
+#news li {
+  display: inline-block;
+  padding: 0px;
+  background: #fff;
+  border: 1px solid #ddd;
+  font-size: 12px;
+  vertical-align: top;
+  box-shadow: 0 0 5px #ddd;
+  box-sizing: border-box;
+  width: 47.5%;
+  height: 75%;
+  position: relative;
+  top: 1000px;
+  z-index: -1;
+  text-align: left;
+}
+
+#news li img {
+  max-width: 600px;
+  height: 440px;
+  margin: 0 0 10px;
+  padding: 10px;
+
+}
+
+#news li iframe{
+  padding: 10px;
+
+
+}
+
+#new li h4 {
+  text-align: center;
+}
